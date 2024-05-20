@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: "Exo 2", sans-serif;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+li{
+  list-style: none;
+}
+.flex{
+  display: flex;
+}
+
+header .social{
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px
+}
+header .btnLogin{
+  display: flex;
+  gap: 1.5rem;
+}
+.login{
+  background: transparent;
+  padding: 5px 20px;
+  border: none;
+  font-size: 17px;
+  color: magenta;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Exo 2", sans-serif;
+}
+.signUp{
+    padding: 10px 20px;
+    border: none;
+    background: rgb(191, 64, 191);
+    border-radius: 6px;
+    font-size: 15px;
+    /* font-weight: bold; */
+    color: white;
+    cursor: pointer;
+    font-family: "Exo 2", sans-serif;
+    box-shadow: 0 0 5px rgb(10, 0, 10);
+}
+.navList{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: gray;
+  padding: 17px 0px;
+}
+.navList .navItems a{
+  font-weight: bold;
+  font-size: 18px;
+}
+.container{
+  padding: 5rem 27rem 5rem 5rem;
+  flex-direction: column;
+  gap: 4rem;
+}
+.container .box1 h1{
+  display: inline-flex;
+  border: 2px solid orangered;
+  padding: 7px 20px ;
+  align-items: center;
+  gap: 20px;
+  border-radius: 15px;
+}
+.container .box1 h1 .cap{
+  font-size: 60px;
+}
+.container .box2 h1{
+  font-size: 5rem;
+}
+.container .box2 h1 span{
+  color: rgb(191, 64, 191);
+}
+.container .box2 p{
+  font-size: 2rem;
+}
+.container .box3{
+  gap: 1rem;
+}
+.container .box3 h4{
+  display: flex;
+  font-size: 1.5rem;
+  gap: 5px;
+  align-items: center;
+  background-color: rgb(251, 251, 144);
+  color: rgb(255, 115, 39);
+  padding: 8px 18px;
+  border-radius: 25px;
+}
+.container .box4{
+  gap: 2rem;
+}
+.container .box4 .btn1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 70px;
+    border: none;
+    background: rgb(191, 64, 191);
+    border-radius: 13px;
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: white;
+    cursor: pointer;
+    font-family: "Exo 2", sans-serif;
+    box-shadow: 0 0 5px rgb(10, 0, 10);
+}
+.container .box4 .btn2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  padding: 20px 70px;
+  border: none;
+  font-size: 25px;
+  color: magenta;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Exo 2", sans-serif;
+}
+.services{
+  justify-content: center;
+  gap: 10rem;
+  background-color: rgb(255, 203, 255);
+  padding: 30px 0;
+}
+.services .box{
+  align-items: center;
+  gap: 10px;
+}
+.services .box .icon{
+  font-size: 30px;
+}
+.curriculum{
+  margin: 2rem 0;
+}
+.container2{
+  background-color: rgb(240, 193, 240);
+  padding: 5rem 10rem;
+  line-height: 1.7rem;
+}
+.container2 .bigBox1{
+  text-align: center;
+  line-height: 3rem;
+}
+.container2 .bigBox1 h4{
+  padding: 0 20px;
+  border-radius: 25px;
+  display: inline-block;
+  background-color: rgb(237, 148, 237);
+}
+.container2 .bigBox1 h1{
+  font-size: 3rem;
+  margin: 25px 0;
+}
+.container2 .bigBox1 h1 span{
+  color: rgba(187, 0, 187, 0.792);
+}
+.container2 .bigBox2{
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.container2 .bigBox2 .smallbox{
+  justify-content: space-between;
+}
+.container2 .bigBox2 .smallbox .viewbox{
+  align-items: center;
+  padding: 5px 40px;
+  border-radius: 15px;
+  background-color: #ffc7ff;
+  gap: 5px;
+  font-size: 17px;
+  color: rgb(236, 43, 236);
+
+}
+.container3{
+  margin: 2rem 0;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.container3 h1{
+  font-size: 35px;
+  width: 40%;
+  text-align: center;
+}
+.container3 h1 span{
+  color: rgb(233, 76, 233);
+}
+.container3 .coupon{
+  border-radius: 15px;
+  width: 380px;
+  padding: 10px;
+  background-color: rgb(144, 0, 144);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container3 .coupon h3{
+  text-align: center;
+}
+.working{
+  gap: 1rem;
+  justify-content: center;
+}
+.working .bigBox{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: rgb(255, 0, 255);
+  padding: 15px;
+  border-radius: 15px;
+  width: 30%;
+  background-color: rgb(255, 228, 255);
+}
+.working .bigBox h4{
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  padding: 0px 15px;
+}
+.hiringComp{
+  padding: 3rem 0;
+  background-color: rgb(255, 255, 212);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.hiringComp .compLogo{
+  display: flex;
+  gap: 2rem;
+}
+.hiringComp .compLogo img{
+  width: 200px;
+}
+.container4{
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+}
+.container4 h1 span{
+  color: rgb(190, 0, 190);
+}
+.container4 .boxTest{
+  gap: 2rem;
+  display: flex;
+}
+.container4 .boxsm{
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  background-color: rgb(255, 199, 255);
+}
+.container4 .boxsm .buttonsTest{
+  display: flex;
+  gap: 15px;
+}
+.container4 .boxsm .buttonsTest h4{
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: rgb(255, 164, 255);
+  display: flex;
+  color: rgb(245, 47, 245);
+  align-items: center;
+}
+.container4 .boxsm img{
+    width: 450px;
+    height: 450px;
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  header .social{
+   padding: 15px 5px;  
+  }
+  .navList{
+    gap: 1rem;
+  }
+  .navList .navItems a{
+    font-size: 15px;
+  }
+  .container{
+    margin-top: 25px;
+    gap: 25px;
+    padding: 5px 10px;
+  }
+  .container .box1 h1{
+    font-size: 15px;
+    gap: 10px;
+  }
+  .container .box1 h1 .cap{
+    font-size: 30px;
+  }
+  .container .box2 h1{
+    font-size: 30px;
+  }
+  .container .box2 p{
+    font-size: 17px;
+  }
+  .container .box3{
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .container .box3 h4{
+    padding: 8px 10px;
+    font-size: 15px;
+    gap: 2px;
+  }
+  .container .box4{
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .services{
+    gap: 10px;
+  }
+  .services .box{
+    gap: 3px;
+  }
+  .container2{
+    padding: 5rem 0;
+  }
+  .container2 .bigBox2{
+    width: 98%;
+    margin: 5PX;
+  }
+  .container2 .bigBox2 .smallbox{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .container3 h1{
+    width: 98%;
+  }
+  .working{
+    flex-direction: column;
+  }
+  .working .bigBox{
+    width: 98%;
+  }
+  .hiringComp .compLogo{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hiringComp .compLogo img{
+    width: 320px;
+  }
+  .container4 .boxTest{
+    flex-direction: column;
+  }
+  .container4 .boxsm{
+    width: 100%;
+  }
+  .container4 .boxTest .boxsm h2{
+    text-align: center;
+  }
+  .container4 .boxsm img{
+    width: 250px;
+    height: 250px;
+  }
+  .container4 .boxsm .buttonsTest h4{
+    padding: 5px 6px;
+  }
+}
